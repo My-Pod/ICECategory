@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ICECategory'
-s.version          = '0.1.0'
+s.version          = '1.0.0'
 s.summary          = '常用的Category'
 s.description      = <<-DESC
 TODO: This is a simple custom Category.
