@@ -12,6 +12,11 @@ category
 ```ruby
 pod "ICECustomAlertView"
 ```
+
+## 版本记录
+    * 1.0.0 初始版本, 有明显 BUG 存在,
+    * 1.0.1 适配现有 应用内容版本. 修改 1.0.0 bug
+
 ## Author
 
 gumengxiao, rare_ice@163.com
