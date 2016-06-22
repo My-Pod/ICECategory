@@ -13,9 +13,14 @@ s.source           = { :git => 'https://github.com/My-Pod/ICECategory.git', :tag
 
 s.ios.deployment_target = '7.0'
 
-s.source_files = 'ICECategory/*.{h,m}','ICECategory/Foundation/*.{h,m}','ICECategory/UIKit/*.{h,m}'
+s.source_files = 'ICECategory/*.{h,m}'
 
+    s.subspec 'Foundation' do |ss|
+        ss.source_files = 'ICECategory/Foundation/*.{h,m}'
+    end
 
-
+    s.subspec 'UIKit' do |ss|
+        ss.source_files = 'ICECategory/UIKit/*.{h,m}'
+    end
 
 end
