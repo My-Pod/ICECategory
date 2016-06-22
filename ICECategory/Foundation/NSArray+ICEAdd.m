@@ -20,6 +20,17 @@
 }
 
 
+- (BOOL)isIncludeObject:(id)obj{
+    
+    __block BOOL isInclude = NO;
+    [self enumerateObjectsUsingBlock:^(id  _Nonnull objec, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (obj == objec) {
+            isInclude = YES;
+        }
+    }];
+    return isInclude;
+}
+
 
 @end
 

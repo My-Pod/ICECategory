@@ -24,7 +24,10 @@
  */
 - (id)objectOrNilAtIndex:(NSUInteger)index;
 
-
+/**
+ *  是否包含某个对象
+ */
+- (BOOL)isIncludeObject:(id)obj;
 
 @end
 

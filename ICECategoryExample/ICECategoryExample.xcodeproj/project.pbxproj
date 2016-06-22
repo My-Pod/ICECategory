@@ -35,6 +35,7 @@
 		17CDFFE11D194D4F00FFF852 /* UIView+ICEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CDFFCD1D194D4F00FFF852 /* UIView+ICEAdd.m */; };
 		17CDFFE31D194DBE00FFF852 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 17CDFFE21D194DBE00FFF852 /* README.md */; };
 		17CDFFE51D194DC800FFF852 /* ICECategory.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17CDFFE41D194DC800FFF852 /* ICECategory.podspec */; };
+		17CDFFFB1D1956FE00FFF852 /* UIView+ICETapAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CDFFFA1D1956FE00FFF852 /* UIView+ICETapAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,8 @@
 		17CDFFCD1D194D4F00FFF852 /* UIView+ICEAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ICEAdd.m"; sourceTree = "<group>"; };
 		17CDFFE21D194DBE00FFF852 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		17CDFFE41D194DC800FFF852 /* ICECategory.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICECategory.podspec; path = ../ICECategory.podspec; sourceTree = "<group>"; };
+		17CDFFF91D1956FE00FFF852 /* UIView+ICETapAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ICETapAdd.h"; sourceTree = "<group>"; };
+		17CDFFFA1D1956FE00FFF852 /* UIView+ICETapAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ICETapAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,8 @@
 				17CDFFCB1D194D4F00FFF852 /* UITableView+ICEAdd.m */,
 				17CDFFCC1D194D4F00FFF852 /* UIView+ICEAdd.h */,
 				17CDFFCD1D194D4F00FFF852 /* UIView+ICEAdd.m */,
+				17CDFFF91D1956FE00FFF852 /* UIView+ICETapAdd.h */,
+				17CDFFFA1D1956FE00FFF852 /* UIView+ICETapAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				17CDFFE01D194D4F00FFF852 /* UITableView+ICEAdd.m in Sources */,
 				17CDFFD71D194D4F00FFF852 /* UIBarButtonItem+ICEAdd.m in Sources */,
 				17CDFFCE1D194D4F00FFF852 /* NSArray+ICEAdd.m in Sources */,
+				17CDFFFB1D1956FE00FFF852 /* UIView+ICETapAdd.m in Sources */,
 				17CDFFDD1D194D4F00FFF852 /* UIGestureRecognizer+ICEAdd.m in Sources */,
 				179714351D19313B00904E41 /* ICENextViewController.m in Sources */,
 				179714321D19312F00904E41 /* ICEViewController.m in Sources */,

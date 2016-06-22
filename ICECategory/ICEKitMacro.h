@@ -160,7 +160,7 @@ return objc_getAssociatedObject(self, @selector(_setter_:)); \
 /**
  *  计算文本size
  */
-static inline CGSize ICESizeWithString(NSString *string, CGFloat max_h, CGFloat max_w, UIFont *font) {
+static inline CGSize ICESizeWithString(NSString *string,  CGFloat max_w,CGFloat max_h, UIFont *font) {
 
     return [string boundingRectWithSize:CGSizeMake(max_w, max_h) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : font} context:nil].size;
 }

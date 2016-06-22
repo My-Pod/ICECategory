@@ -73,3 +73,16 @@
 
 
 @end
+
+
+@implementation NSMutableDictionary (ICEAdd)
+
+- (void)addDictionary:(NSDictionary *)dic{
+    
+    if (!dic) return;
+    [dic enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        self[key] = obj;
+    }];
+}
+
+@end

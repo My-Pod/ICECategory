@@ -67,3 +67,19 @@
 - (NSString *)jsonStringEncoded;
 
 @end
+
+
+
+
+
+@interface NSMutableDictionary (ICEAdd)
+
+
+/**
+ *  添加一个字典, 如果 为空 则无效, 如果添加的字典中有 key 和原有的重合 则替代
+ *
+ *  @param dic
+ */
+- (void)addDictionary:(NSDictionary *)dic;
+
+@end
