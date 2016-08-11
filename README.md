@@ -16,11 +16,9 @@ pod "ICECustomAlertView"
 ## 版本记录
     * 1.0.0 初始版本, 有明显 BUG 存在,
     * 1.0.1 适配现有 应用内容版本. 修改 1.0.0 bug
+    * 1.0.3 添加字体 xib 字体适配扩展
 
 ## Author
 
 gumengxiao, rare_ice@163.com
 
-## License
-
-ICECustomAlertView is available under the MIT license. See the LICENSE file for more info.

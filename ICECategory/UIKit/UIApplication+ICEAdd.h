@@ -45,5 +45,4 @@
  */
 @property (nonatomic, readonly) NSString *appBuildVersion;
 
-
 @end

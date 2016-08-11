@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+static inline UIFont * UIFontWithSize(CGFloat size){
+    return  [UIFont systemFontOfSize:size];
+}
+
+
 @interface UIFont (ICEAdd)
 
 

@@ -258,6 +258,4 @@ static inline void dispatch_sync_on_main_queue(void (^block)()) {
 
 
 
-
-
 #endif /* ICEKitMacro_h */

@@ -28,7 +28,7 @@
 #import "UIScrollView+ICEAdd.h"
 #import "UITableView+ICEAdd.h"
 #import "UIFont+ICEAdd.h"
-
+#import "ICEFontFitCategory.h"
 
 
 
