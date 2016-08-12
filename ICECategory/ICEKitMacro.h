@@ -131,7 +131,8 @@ return objc_getAssociatedObject(self, @selector(_setter_:)); \
 
 //----------------------inline 内联函数-----------------------------------
 /**
- *  作用: 代替宏, 用来建议编译器对一些特殊函数进行内联扩展（有时称作在线扩展）；也就是说建议编译器将指定的函数体插入并取代每一处调用该函数的地方（上下文），从而节省了每次调用函数带来的额外时间开支。但在选择使用内联函数时，必须在程序占用空间和程序执行效率之间进行权衡，因为过多的比较复杂的函数进行内联扩展将带来很大的存储资源开支。另外还需要非常注意的是对递归函数的内联扩展可能带来部分编译器的无穷编译。来自
+ *  作用: 代替宏, 用来建议编译器对一些特殊函数进行内联扩展（有时称作在线扩展）；也就是说建议编译器将指定的函数体插入并取代每一处调用该函数的地方（上下文），从而节省了每次调用函数带来的额外时间开支。但在选择使用内联函数时，必须在程序占用空间和程序执行效率之间进行权衡，因为过多的比较复杂的函数进行内联扩展将带来很大的存储资源开支。另外还需要非常注意的是对递归函数的内联扩展可能带来部分编译器的无穷编译。
+ 
  *  为什么用 inline 取代宏: 为什么inline能取代宏？
     优点相比于函数:
  
@@ -155,30 +156,6 @@ return objc_getAssociatedObject(self, @selector(_setter_:)); \
         4.内联函数的定义须在调用之前.
  
  */
-
-
-/**
- *  计算文本size
- */
-static inline CGSize ICESizeWithString(NSString *string,  CGFloat max_w,CGFloat max_h, UIFont *font) {
-
-    return [string boundingRectWithSize:CGSizeMake(max_w, max_h) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : font} context:nil].size;
-}
-
-/**
- *  计算文本 宽度, (不限定最大宽度)
- */
-static inline CGFloat ICEWidthWithString(NSString *string, CGFloat max_h, UIFont *font) {
-
-    return ICESizeWithString(string,MAXFLOAT,max_h,font).width;
-}
-
-/**
- *  计算文本 高度,  (不限定最大高度)
- */
-static inline CGFloat ICEHeightWithString(NSString *string, CGFloat max_w, UIFont *font) {
-    return ICESizeWithString(string,max_w,MAXFLOAT,font).height;
-}
 
 
 

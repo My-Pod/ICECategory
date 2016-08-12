@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
+
+
 @interface UIFont (ICEFontFitAdd)
 
+//字体适配屏幕比例所得比例.
++ (CGFloat)getFontSizeScale;
 @end
 
 @interface UILabel (ICEFontFitAdd)

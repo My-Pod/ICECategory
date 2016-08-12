@@ -29,7 +29,7 @@ const NSInteger ICEFontNotFitTag = 2016;
             if (width == 414) {
                 oneRato = 1.5;
             }else if (width == 375 || width == 320){
-                oneRato = 2.0;
+                oneRato = 1.0;
             }else{
                 oneRato = width / 320.0;
             }
